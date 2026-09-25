@@ -1,0 +1,4 @@
+﻿variable,archivo,uso_sugerido,nota
+nro,EH2025_Persona,identificador,Número de persona; 39.485 casos válidos
+aestudio,EH2025_Persona,educación,Años de estudio
+niv_ed_g,EH2025_Persona,educación,Nivel educativo general

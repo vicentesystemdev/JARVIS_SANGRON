@@ -1,0 +1,14 @@
+﻿campo,tipo_uso,descripcion
+code_module,predictor/contexto,Código del módulo
+code_presentation,predictor/contexto,Presentación del módulo
+id_student,identificador,Identificador anónimo del estudiante
+gender,predictor,Sexo registrado
+region,predictor,Región de residencia
+highest_education,predictor,Nivel educativo previo
+imd_band,predictor,Banda de privación socioeconómica
+age_band,predictor,Rango de edad
+num_of_prev_attempts,predictor,Intentos previos
+studied_credits,predictor,Créditos cursados
+disability,predictor sensible,Discapacidad declarada
+final_result,solo etiqueta,Usar para crear abandono; NO usar como predictor
+abandono,target derivado,1=Withdrawn; 0=Pass/Distinction/Fail

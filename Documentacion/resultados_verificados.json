@@ -1,0 +1,99 @@
+{
+  "metricas": {
+    "Logit 0.50": {
+      "Umbral": 0.5,
+      "Accuracy": 0.7089337176,
+      "Precision": 0.6261261261,
+      "Recall": 0.1821756225,
+      "F1": 0.2822335025,
+      "AUC-ROC": 0.6883738096,
+      "VN": 3166,
+      "FP": 166,
+      "FN": 1248,
+      "VP": 278
+    },
+    "Logit ajustado": {
+      "Umbral": 0.3,
+      "Accuracy": 0.6097159325,
+      "Precision": 0.4244281046,
+      "Recall": 0.6808650066,
+      "F1": 0.5228988425,
+      "AUC-ROC": 0.6883738096,
+      "VN": 1923,
+      "FP": 1409,
+      "FN": 487,
+      "VP": 1039
+    },
+    "Árbol 0.50": {
+      "Umbral": 0.5,
+      "Accuracy": 0.7031700288,
+      "Precision": 0.5871369295,
+      "Recall": 0.1854521625,
+      "F1": 0.28187251,
+      "AUC-ROC": 0.6649203915,
+      "VN": 3133,
+      "FP": 199,
+      "FN": 1243,
+      "VP": 283
+    },
+    "Árbol ajustado": {
+      "Umbral": 0.3018867925,
+      "Accuracy": 0.6156854673,
+      "Precision": 0.425708061,
+      "Recall": 0.6402359109,
+      "F1": 0.5113844543,
+      "AUC-ROC": 0.6649203915,
+      "VN": 2014,
+      "FP": 1318,
+      "FN": 549,
+      "VP": 977
+    },
+    "Mayoritaria": {
+      "Umbral": 0.5,
+      "Accuracy": 0.6858789625,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0,
+      "AUC-ROC": 0.5,
+      "VN": 3332,
+      "FP": 0,
+      "FN": 1526,
+      "VP": 0
+    }
+  },
+  "particiones": [
+    {
+      "Conjunto": "Entrenamiento",
+      "Inscripciones": 22802,
+      "Estudiantes": 20149,
+      "Inscripciones (%)": 69.9598073206,
+      "Abandono (%)": 31.1551618279
+    },
+    {
+      "Conjunto": "Validación",
+      "Inscripciones": 4933,
+      "Estudiantes": 4318,
+      "Inscripciones (%)": 15.1351517197,
+      "Abandono (%)": 30.9345226029
+    },
+    {
+      "Conjunto": "Prueba",
+      "Inscripciones": 4858,
+      "Estudiantes": 4318,
+      "Inscripciones (%)": 14.9050409597,
+      "Abandono (%)": 31.4121037464
+    }
+  ],
+  "umbrales": {
+    "Logit": 0.3,
+    "Árbol": 0.3018867924528302
+  },
+  "hiperparametros": {
+    "modelo__max_depth": 10,
+    "modelo__min_samples_leaf": 50,
+    "modelo__min_samples_split": 2
+  },
+  "auc_cv": 0.6455652839383413,
+  "convergencia_logit": true,
+  "sha256_dataset": "77fd79ba61213627c6fd64019edbf367e3028c9c3e16e086244d2ba06e09a8cf"
+}
